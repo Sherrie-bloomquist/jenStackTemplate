@@ -19,6 +19,7 @@ app.get( '/', function( req, res ){
 app.get( '/testGet', function( req, res ){
   console.log( 'testGet url hit' );
   // do work here
+  $('#testGetButton').html()
   // assemble object to return
   var objectToReturn = {
     field0: 'I came from testGet on server'
